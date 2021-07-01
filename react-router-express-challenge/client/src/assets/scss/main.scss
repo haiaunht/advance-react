@@ -1,0 +1,97 @@
+@import "./foundation/settings";
+@import "~foundation-sites/scss/foundation";
+@include foundation-everything;
+// place global css here
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+.resume-section {
+  border: 1px solid black;
+  margin-top: 5em;
+}
+
+.project {
+  border: 1px solid black;
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  padding: 20px;
+  background-color: #abcdef;
+}
+
+h3 {
+  text-align: center;
+  margin: 20px;
+  color: darkblue;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+p {
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+}
+
+.project-show {
+  background-color: paleturquoise;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+#about {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2jHBhajMBO4WyVufr8iib3brF4Rcav-ZTEw&usqp=CAU);
+  height: 1000px;
+}
+
+.resume-section {
+  background-color: aqua;
+  border: 1px solid blue;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.volunteer-tile {
+  background-color: pink;
+  border: 1px solid blue;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.education-tile {
+  background-color: bisque;
+  border: 1px solid blue;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.work-tile {
+  background-color: lightblue;
+  border: 1px solid blue;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.skill {
+  background-color: lightyellow;
+  border: 1px solid blue;
+  width: 80%;
+  margin: 30px auto;
+}

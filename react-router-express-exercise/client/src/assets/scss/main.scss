@@ -1,0 +1,32 @@
+@import "./foundation/settings";
+@import "~foundation-sites/scss/foundation";
+@include foundation-everything;
+// place global css here
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+h1,
+p {
+  color: blue;
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+#background {
+  background-image: url("https://cdn.shopify.com/s/files/1/1089/2102/products/Cards05_Small_2048x.jpg?v=1545106355");
+  height: 800px;
+  width: 1200px;
+  margin: auto;
+}

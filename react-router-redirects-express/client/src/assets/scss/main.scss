@@ -1,0 +1,34 @@
+@import "./foundation/settings";
+@import "~foundation-sites/scss/foundation";
+@include foundation-everything;
+// place global css here
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+#movieList {
+  display: block;
+  margin-left: 100px;
+}
+
+form {
+  width: 60%;
+  margin: auto;
+}
+
+div {
+  width: 80%;
+  margin: auto;
+}

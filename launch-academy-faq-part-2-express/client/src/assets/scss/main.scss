@@ -1,0 +1,41 @@
+@import "./foundation/settings";
+@import "~foundation-sites/scss/foundation";
+@include foundation-everything;
+// place global css here
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+.errorMsg {
+  color: red;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+div .nav {
+  margin-left: 50px;
+}
+
+form {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+.margin-left {
+  margin-left: 15%;
+}
